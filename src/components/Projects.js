@@ -13,7 +13,7 @@ function Projects() {
                 <div className="projects-wrapper">
                     <ul className='projects-items'>
                         <CardItem
-                            src="images/image-2.jpg"
+                            src="images/image-6.jpg"
                             title="Amazon Clone"
                             path="/"
                             intro="An amazon clone deployed on Google firebase using React JS with an integrated recommendation system which provides personalised recommendations."
@@ -30,7 +30,7 @@ function Projects() {
                         <CardItem
                             src="images/image-2.jpeg"
                             title="Melody Generator"
-                            path="/"
+                            path="https://dl-melody-generator.herokuapp.com/"
                             intro="A website using LSTM for generation of a melodious melody from the input for the user wanting some COOL new music."
                         />
 
