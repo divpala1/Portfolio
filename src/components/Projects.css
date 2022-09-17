@@ -95,13 +95,15 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-size: 1.5rem;
-    color: #181818;
+    /* color: #181818; */
+    color: white;
   }
 
 .card-item:hover img {
-    opacity: 0.3;
     transform: scale(1.1);
-    transition: 0.35s ease-in-out;
+    transition: 0.39s ease-in-out;
+    backdrop-filter: blur(10px);
+    filter: blur(30px);
   }
   
 .card-item:hover .middle {
